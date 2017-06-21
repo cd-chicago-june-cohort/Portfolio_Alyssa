@@ -17,6 +17,7 @@ a{
     height: 80px;
     line-height: 50px;
     background: #F5F5F5;
+    position: relative;
 }
 
 #header h1{
@@ -27,7 +28,8 @@ a{
 
 #header p{
     display: inline-block;
-    float: right;
+    position: absolute;
+    right: 0;
     padding: 15px;
     font-size:25px;
     font-weight: bold;
